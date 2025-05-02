@@ -1,0 +1,130 @@
+body{
+    background-color: #E1FFFF	;
+    font-family: Roboto,sans-serif;
+}
+.details{
+    height: 1100px;
+    width: 600px;
+    margin: auto; 
+}
+.required{
+    font-size: 13px;
+    color: red;
+}
+.title-div{
+    height: 130px;
+    width: 600px;
+    background-color: #FDFEFE;
+    margin: 15px;
+    border-radius: 8px;
+    border-top: 8px solid #5ADFE4;
+    padding: 25px;
+    box-shadow: 1px 1px;
+}
+.name-div,.phone-div,.address-div,.company-div,.email-div,.dept-div,.gender-div{
+    height: 135px;
+    width: 650px;
+    background-color:#FDFEFE;
+    margin: 15px;
+    border-radius: 8px;
+    box-shadow: 1px 1px;
+}
+.name{
+    padding-top: 25px;
+    padding-left: 25px;
+    padding-bottom: 15px;
+    font-size: 15px;
+}
+.input-div{
+    padding-top: 10px;
+    padding-left: 25px;
+}
+.input-div input{
+    width: 300px;
+    border: 0;
+    outline: 0;
+    border-bottom: 1.5px solid #DCD7D7;
+    font-size: 15px;
+}
+.sex{
+    padding-left: 25px;
+    font-size: 15px;
+}
+.btn{
+    height: 37px;
+    width: 100px;
+    background-color: #5ADFE4;
+    border-radius: 5px;
+    font-size: 14px;
+    letter-spacing: .5px;
+    font-weight: 600;
+    border:none;
+    padding: 10px;
+    position: absolute;
+    margin:15px;
+    color: white; 
+}
+.last-div h2{
+    text-align:center;
+    padding-top: 30px;
+    color: #a2a4a6;
+    padding-bottom: 30px;
+    font-weight: 200;  
+}
+.term{
+    font-size: 12px;
+    padding-left: 65px;
+    padding-top: 5px;
+    position: absolute;
+    color: #5F6368;
+}
+.never{
+    padding-left: 15px;
+    font-size: 12px;
+    padding-top: 80px;
+    font-weight: 400;
+    color: #5F6368;
+}
+.sus{
+    padding-left: 200px;
+    padding-top: 60px;
+    font-size: 12px;
+    color: #5F6368;
+}
+.btn:hover{
+    background-color:#8EF1F4;
+    font-size: 15px; 
+}
+.remove{
+    padding-left: 540px;
+}
+#clear{
+    height: 37px;
+    width: 110px;
+    background-color: #5ADFE4;
+    border-radius: 5px;
+    font-size: 14px;
+    letter-spacing: .5px;
+    font-weight: 600;
+    border:none;
+    padding: 10px;
+    position: absolute;
+    margin:15px;
+    color: white; 
+}
+#clear:hover{
+    background-color:#8EF1F4;
+    font-size: 15px; 
+}
+.title{
+    font-weight: bold;
+}
+#text,.values{
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+
+
+
+
