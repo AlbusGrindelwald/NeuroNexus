@@ -7,80 +7,92 @@
     <link rel="stylesheet"  type="text/css" href="style.css">
 </head>
 <body>
-    <form action="" method="post">
-     <div class="details">
-        <div class="title-div">
-             <h1>LANDING PAGE</h1>
-             <p>This is a google form created with HTML and CSS</p>
-             <p class="required">* Indicates required question</p>
-        </div>
-
-        <div class="name-div">
-            <div class="name">Full Name<span class="required"> *</span></div>
-            <div class="input-div"><input type="input" name="name" placeholder="Your answer" required></div>
-        </div>
-
-        <div class="phone-div">
-            <div class="name">Contact Number<span class="required"> *</span></div>
-            <div class="input-div"><input type="tel" name="phone" pattern="[1-9]{1}[0-9]{9}" maxlength="10" placeholder="123456789" required></div>
-        </div>
-
-        <div class="address-div">
-            <div class="name">Address<span class="required"> *</span></div>
-            <div class="input-div"><textarea name="textarea" id="text" cols="60" rows="3" required></textarea></div>
-        </div>
-
-        <div class="company-div">
-            <div class="name">Company Name<span class="required"> *</span></div>
-            <div class="input-div"><input type="input" name="answer" placeholder="Your answer" required></div>
-        </div>
-
-        <div class="email-div">
-            <div class="name">Email<span class="required"> *</span></div>
-            <div class="input-div"><input type="email" name="email" placeholder="Your answer" required></div>
-        </div>
-
-        <div class="dept-div">
-            <div class="name">Department<span class="required"> *</span></div>
-            <div class="input-div">
-                <select class="values" name="Department" required>
-                    <option value="HR">HR</option>
-                    <option value="Sales">Sales</option>
-                    <option value="Development">Development</option>
-                    <option value="Marketing">Marketing</option>
-                    <option value="Others">Others</option>
-                </select></div>
-        </div>
-
-        <div class="gender-div">
-            <div class="name">Gender<span class="required"> *</span></div>
-            <div class="sex">
-                <input type="radio"  id="male" value="Male" name="gender" required>
-                <label for="male">Male</label><br>
-                <input type="radio"  id="female" value="Female" name="gender" required>
-                <label for="female">Female</label><br>
-                <input type="radio"  id="no" value="no" name="gender" required>
-                <label for="no">Prefer not to say</label>
+    <div class="container">
+        <div class="form-card title-card">
+            <div class="title-content">
+                <h1>LANDING PAGE</h1>
+                <p class="subtitle">This is a google form created with HTML and CSS</p>
+                <p class="required-note">* Indicates required question</p>
             </div>
         </div>
-
-        <div>
-            <input class="btn" id="effect" type="submit" value="Submit">
-        </div>
         
-        <span class="remove">
-            <input type="reset" id="clear" value="Clear Form">
-        </span>
-    </form> 
-        <script>
-            document.getElementById("clear").reset();
-        </script>
+        <form action="#" method="post">
+            <div class="form-card">
+                <div class="form-group">
+                    <label class="form-label">Full Name<span class="required-star"> *</span></label>
+                    <input type="text" class="form-input" name="name" placeholder="Your answer" required>
+                </div>
+            </div>
+            
+            <div class="form-card">
+                <div class="form-group">
+                    <label class="form-label">Contact Number<span class="required-star"> *</span></label>
+                    <input type="tel" class="form-input" name="phone" pattern="[1-9]{1}[0-9]{9}" maxlength="10" placeholder="123456789" required>
+                </div>
+            </div>
+            
+            <div class="form-card">
+                <div class="form-group">
+                    <label class="form-label">Address<span class="required-star"> *</span></label>
+                    <textarea class="form-input" name="textarea" placeholder="Your answer" required></textarea>
+                </div>
+            </div>
+            
+            <div class="form-card">
+                <div class="form-group">
+                    <label class="form-label">Company Name<span class="required-star"> *</span></label>
+                    <input type="text" class="form-input" name="answer" placeholder="Your answer" required>
+                </div>
+            </div>
+            
+            <div class="form-card">
+                <div class="form-group">
+                    <label class="form-label">Email<span class="required-star"> *</span></label>
+                    <input type="email" class="form-input" name="email" placeholder="Your answer" required>
+                </div>
+            </div>
+            
+            <div class="form-card">
+                <div class="form-group">
+                    <label class="form-label">Department<span class="required-star"> *</span></label>
+                    <select class="form-input" name="Department" required>
+                        <option value="HR">HR</option>
+                        <option value="Sales">Sales</option>
+                        <option value="Development">Development</option>
+                        <option value="Marketing">Marketing</option>
+                        <option value="Others">Others</option>
+                    </select>
+                </div>
+            </div>
+            
+            <div class="form-card">
+                <div class="form-group">
+                    <label class="form-label">Gender<span class="required-star"> *</span></label>
+                    <div class="radio-group">
+                        <label class="radio-option">
+                            <input type="radio" name="gender" value="Male" required> Male
+                        </label>
+                        <label class="radio-option">
+                            <input type="radio" name="gender" value="Female"> Female
+                        </label>
+                        <label class="radio-option">
+                            <input type="radio" name="gender" value="no"> Prefer not to say
+                        </label>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="button-group">
+                <input type="submit" class="btn" value="Submit">
+                <input type="reset" class="btn" value="Clear Form">
+            </div>
+        </form>
         
-        <div class="last-div">
-            <p class="never">Never submit passwords through Google Forms.</p>
-            <p class="term">This content is neither created nor endorsed by Google. - <u>Terms of Service</u> - <u>Private Policy</u>.</p>
-            <p class="sus">Does this form look suspicious? <u>Report</u></p>
-            <h2><span class="title">Google</span> Forms</h2>
+        <div class="footer">
+            <p class="warning">Never submit passwords through Google Forms.</p>
+            <p class="disclaimer">This content is neither created nor endorsed by Google. - <a href="#" class="footer-link"><u>Terms of Service</u></a> - <a href="#" class="footer-link"><u>Private Policy</u></a>.</p>
+            <p class="report">Does this form look suspicious? <a href="#" class="footer-link"><u>Report</u></a></p>
+            <h2 class="branding"><span class="google">Google</span> Forms</h2>
         </div>
     </div>
 </body>
