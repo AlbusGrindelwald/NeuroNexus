@@ -14,7 +14,7 @@ body {
 .form-card {
     background-color: #FDFEFE;
     border-radius: 8px;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.12);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
     margin-bottom: 15px;
     overflow: hidden;
     box-shadow: 1px 1px;
@@ -172,4 +172,3 @@ select.form-input {
     font-weight: bold;
     text-align: center;
 }
-
